@@ -1,31 +1,29 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.3.0",
+  "name": "node-js-sample",
+  "version": "0.2.0",
   "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "14.x"
-  },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "ejs": "^3.1.5",
-    "express": "^4.15.2"
+    "express": "^4.13.3"
   },
-  "devDependencies": {
-    "got": "^11.3.0",
-    "tape": "^4.7.0"
+  "engines": {
+    "node": "4.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/heroku/node-js-sample"
   },
   "keywords": [
     "node",
     "heroku",
     "express"
+  ],
+  "author": "Mark Pundsack",
+  "contributors": [
+    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
   ],
   "license": "MIT"
 }
