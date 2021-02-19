@@ -8,6 +8,10 @@ app.get('/', function(request, response) {
   response.send('Hello World!')
 })
 
+app.get('/multiply/:num1/:num2', function(request, response) {
+  response.send((request.params.num1 * request.params.num2)+'');
+})
+
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))
 })
